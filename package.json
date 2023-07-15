@@ -1,0 +1,18 @@
+{
+  "name": "MotoFire_API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/a5512167086/MotoFire_API.git",
+  "author": "Shin <bear55121677@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  }
+}
